@@ -1,0 +1,22 @@
+{
+  "name": "skeleton-typescript-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.0.1",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "@types/jest": "^24.0.23"
+  },
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
