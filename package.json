@@ -5,15 +5,19 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "concurrently": "^5.0.1",
     "jest": "^24.9.0",
     "nodemon": "^2.0.2",
-    "@types/jest": "^24.0.23"
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*",
+    "lint": "tslint --project tsconfig.json",
     "test": "jest"
   },
   "keywords": [],
