@@ -6,12 +6,12 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.1.1",
-    "concurrently": "^5.0.1",
+    "concurrently": "^5.1.0",
     "jest": "^24.9.0",
     "nodemon": "^2.0.2",
     "tslint": "^5.20.1",
     "tslint-config-airbnb": "^5.11.2",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "start:build": "tsc -w",
